@@ -1,4 +1,5 @@
-Overall Workflow (Controlled by main.py):             
+Overall Workflow (Controlled by main.py): python --version
+Python 3.13.3
 
 Step 1: Image Capture or Upload
     File: capture.py
