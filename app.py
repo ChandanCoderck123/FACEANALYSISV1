@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 from main import analyze_images  # Import your core image analysis function
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app, resources={r"/*": {"origins": "*"}}) 
 
 # Configure folders and allowed extensions
 UPLOAD_FOLDER = 'uploads'
